@@ -1,0 +1,21 @@
+.ulnav {
+    margin-top: 50px;
+}
+
+.ulnav li{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.ulnav li span{
+    margin-left: 10px;
+    color: #eeeeee !important;
+}
+
+.ulnav img {
+    width: 15px;
+    height: 15px;
+}

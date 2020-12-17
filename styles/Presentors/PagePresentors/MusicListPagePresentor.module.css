@@ -1,0 +1,46 @@
+.MusicList{
+    animation: header 600ms;
+}
+
+.MusicList h5{
+    border-bottom: 4px solid #0e9680;
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 150px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+.line{
+    background-color: #0e9680;
+}
+
+.liheader li{
+    cursor: unset;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+@keyframes header {
+    from{
+        margin-left: 15px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .MusicList h1 {
+        margin-top: 30px;
+    }
+
+    .MusicList span {
+        font-size: 12px !important;
+    }
+    .MusicList h1{
+        text-align: center;
+    }
+}

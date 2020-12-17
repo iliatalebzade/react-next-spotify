@@ -1,0 +1,25 @@
+.pagepresentor {
+    width: 90%;
+    height: 89%;
+    background-color: #303030;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #1ABC9C !important;
+    margin-left: 0px;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pagepresentor {
+        width: 102%;
+    }
+}

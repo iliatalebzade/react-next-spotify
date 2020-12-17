@@ -1,0 +1,87 @@
+.listdiv {
+    width: 10%;
+    height: 100vh;
+    background-color: #161515;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.innerDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 150px !important;
+    position: absolute;
+    bottom: 11%;
+    object-fit: cover;
+    background-color: #52c41a;
+}
+
+.burgerIcon {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}
+
+.burgerIcon div{
+    border-radius: 5px;
+    width: 35px;
+    height: 5px;
+    background-color: #3cc9a9;
+    margin: 6px 0;
+}
+
+.activeToggle {
+    width: 39%;
+    height: 100vh;
+    background-color: #161515;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 90;
+}
+
+.activeToggle img {
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .listdiv {
+        width: 0%;
+    }
+    .burgerIcon {
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .activeToggle {
+        width: 15%;
+        height: 100vh;
+        background-color: #161515;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+    .image  {
+        width: 100%;
+        height: 150px !important;
+        position: absolute;
+        bottom: 11%;
+        object-fit: cover;
+        background-color: #52c41a;
+    }
+}

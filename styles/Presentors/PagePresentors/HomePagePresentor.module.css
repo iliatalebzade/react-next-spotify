@@ -1,0 +1,42 @@
+.home h5{
+    color: #eee !important;
+    border-bottom: 2px solid #eee;
+    font-size: 25px;
+    display: block;
+    padding-bottom: 3px;
+}
+
+.home {
+    margin-left: 0px;
+    animation: header 600ms;
+}
+
+.cardbox {
+    display: flex;
+    felx-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+@keyframes header {
+    from{
+        margin-left: 15px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardbox {
+        width: 101%;
+        justify-content: center;
+        align-items: center;
+    }
+    .home h1{
+        text-align: center;
+    }
+    .home h5{
+        text-align: center;
+    }
+}

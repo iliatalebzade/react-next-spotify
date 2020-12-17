@@ -1,0 +1,30 @@
+.ListRow ul{
+    transition-duration: 300ms;
+    background-color: #3b3b3b;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ListRow ul:hover {
+    transition-duration: 300ms;
+    box-shadow: 0px 0px 20px #0d7765;
+    background-color: #3cc9a9;
+}
+
+.ListRow {
+    margin: 0px;
+}
+
+.ListRow ul li {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.ListRow ul li span:nth-of-type(2){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

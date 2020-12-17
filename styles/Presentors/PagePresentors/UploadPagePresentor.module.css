@@ -1,0 +1,19 @@
+.uploadMain {
+    animation: header 600ms;
+}
+
+@keyframes header {
+    from{
+        margin-left: 15px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .uploadMain h1 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
